@@ -49,7 +49,7 @@ static const int64_t BLOCK_SPACING = 6 * 60;
 static const int64_t BLOCK_SPACING_MIN = 4 * 60; // This value is not used until Velocity constraint system is implemented
 static const int64_t BLOCK_SPACING_MAX = 8 * 60;
 static const int64_t nTimeFork = 910000;
-static const int64_t nTimeFork_2 = 1546382547;
+static const int64_t nTimeFork_2 = 1556668800;
 
 inline bool MoneyRange(int64_t nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
 // Threshold for nLockTime: below this value it is interpreted as block number, otherwise as UNIX timestamp.
